@@ -6,7 +6,15 @@
 
 README.Rmd
 
-MTE_dataAnalysis/output
-MTE_dataAnalysis/plots
-animations
-BathurstSurvey
+MTE_dataAnalysis/output/
+MTE_dataAnalysis/plots/
+animations/
+BathurstSurvey/
+simulations/output
+simulations/figures/ 
+ClimateChangeData/
+figures/
+LST/ 
+
+*.rds
+*.RData
