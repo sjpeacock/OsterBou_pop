@@ -12,7 +12,7 @@ library(scales) #for plotting
 library(gplots)
 
 # 
-source("dataAnalysis/functions.R")
+source("MTE_dataAnalysis/functions.R")
 
 # Choose: Fit the models with contant sigma across temperatures
 #         or different (Independent) sigma for each temperature
@@ -35,7 +35,7 @@ dimnames(models2test)[[2]] <- c("u0", "u1", "rho", 'nParams')
 nF <- 6 # number of "folds" (k-fold) = each of five reps plus a fit with all data
 
 # Load data
-dat<-load.data(excl.temp=40)
+dat <- load.data(excl.temp=40)
 
 ###############################################################################
 ## Fitting

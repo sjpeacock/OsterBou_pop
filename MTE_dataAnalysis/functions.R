@@ -17,8 +17,8 @@
 #      nt_obs: matrix with number of timestpes f
 #------------------------------------------------------------------------------
 
-load.data <- function(excl.temp=40){
-  data <- read.csv("dataAnalysis/Ostertagia_data.csv")
+load.data <- function(excl.temp = 40){
+  data <- read.csv("MTE_dataAnalysis/Ostertagia_data.csv")
   data <- subset(data, data$temperature!=excl.temp)
 	
 	#--------------------------------------------
